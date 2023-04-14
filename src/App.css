@@ -1,0 +1,20 @@
+.calculator-container{
+  display: grid;
+  grid-template-columns:  repeat(4, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5,6rem);
+}
+.output{
+  word-wrap:  break-word;
+  word-break: break-all;
+}
+.calculator-container > button{
+  font-size: larger;
+  border: 1px solid rgb(233, 233, 233);
+  outline: none;
+  background-color: cornflowerblue;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+.calculator-container >button:hover{
+  background-color: #dfdfdf;
+}
